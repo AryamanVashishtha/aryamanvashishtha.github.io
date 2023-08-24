@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Source Code Pro;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(126deg, #0E1C26 0%, #2F5862 51.04%, #4B749F 98.43%, #294861 98.44%);
+
+
+}
+/* navbar */
+.navbar{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
+.navbar li a :hover{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    background-color: black;
+}
+/* hero */
+.hero{
+    max-width: 80vw;
+    margin: auto; 
+}
+.hero img{
+    max-width: 30vw; 
+}
+.herobox{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+/* skills */
+.skillsection{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+.skillbox h1{
+    color: white;
+    font-weight: 600;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.container{
+    width: 25vw;
+    background-color: white;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin:10px 0px;
+}
+.skillbar{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, #20393E 30%, rgba(255, 255, 255, 0.00) 140%);
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+.html{
+    width: 80%;
+}
+.css{
+    width:70%;
+}
+.js{
+    width: 50%;
+}
+.c{
+    width: 85%;
+}
+.cpp{
+    width:70%;
+}
+.video-editing{
+    width: 70%;
+}
+
+/* Projects Section */
+
+.project-section{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+.project-box{
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.food{
+    margin-top: -10px;
+}
+
+/* About Section */
+
+.about-section{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+.about-text{
+    max-width:70% ; 
+    margin:auto; 
+    margin-top: 30px;
+}
+
+ /* Contact Section */
+
+.contact-section{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+.contact-box{
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+}
+.contact-form{
+    max-width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.contact-form-title{
+    margin-left: -50px;
+}
+.contact-form h2{
+    max-width: 250px;
+    padding: 10px 0px 10px 0px;
+}
+.contact-form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 25px;
+    border-bottom: 1px solid white;
+}
+.contact-form ::placeholder{
+    color: white;
+    opacity: 50%;
+    height: 15px;
+}
+textarea{
+    background-color: #2a3d41;
+}
+.contact-details{
+    margin: auto;
+    display: inline-block;
+}
+.contactus{
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+
+
+
+
+
+.normal{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+.small{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.big{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.bold{
+    font-weight:800;
+}
+.button-border{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+hr{
+    margin: auto;
+    height: 1px;
+    width: 70vw;
+}
+.block{
+    display: inline-block;
+}
+.light{
+    opacity: 0.5;
+}
+button{
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.circle {
+    height: 240px;
+    width: 240px;
+    border-radius: 240px;
+    background-color: rgba(0, 0, 0, 0.4);;
+    position: fixed; 
+    filter: blur(200px);
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+  }
+#light{
+    height: 340px;
+    width: 340px;
+    border-radius: 340px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    filter: blur(2000px);
+    top: 0;
+    left: 0;
+    z-index: 99999; /* so that it stays on top of all other elements */
+  }
